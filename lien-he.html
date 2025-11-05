@@ -1,0 +1,62 @@
+<!-- lien-he.html -->
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Liên hệ - Khoa CNTT</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="site-title">Liên hệ - Khoa CNTT</div>
+      <nav class="main-nav" aria-label="Menu chính">
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a href="tin-tuc.html">Tin tức</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="card">
+        <h2>Gửi liên hệ</h2>
+        <form action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Họ tên</label>
+            <input id="name" name="name" type="text" required placeholder="Nguyễn Văn A">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="subject">Chủ đề</label>
+            <select id="subject" name="subject">
+              <option>Học vụ</option>
+              <option>Hợp tác doanh nghiệp</option>
+              <option>Khác</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Nội dung</label>
+            <textarea id="message" name="message" rows="6" placeholder="Nội dung..."></textarea>
+          </div>
+          <button class="btn" type="submit">Gửi</button>
+        </form>
+      </section>
+
+      <aside class="card">
+        <h4>Thông tin liên hệ</h4>
+        <p>Email: contact@khoacntt.edu.vn</p>
+        <p>Điện thoại: 0123-456-789</p>
+      </aside>
+    </main>
+
+    <footer class="site-footer card">© 2025 Khoa CNTT</footer>
+  </div>
+</body>
+</html>
